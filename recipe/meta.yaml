@@ -1,5 +1,5 @@
 {% set name = "fiscalyear" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3fde4a12eeb72da446beb487e078adf1223a92d130520e589b82d7d1509701a2
+  sha256: f513616aeb03046406c56d7c69cd9e26f6a12963c71c1410cc3d4532a5bfee71
 
 build:
   number: 0
