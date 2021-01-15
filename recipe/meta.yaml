@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python>=2.5
     - pip
     - pytest-runner
   run:
-    - python
+    - python>=2.5
 
 test:
   imports:
@@ -33,10 +33,10 @@ about:
   license_file: LICENSE
   summary: Utilities for managing the fiscal calendar
   description: |
-    fiscalyear is a small, lightweight Python module providing helpful utilities 
-    for managing the fiscal calendar. It is designed as an extension of the 
+    fiscalyear is a small, lightweight Python module providing helpful utilities
+    for managing the fiscal calendar. It is designed as an extension of the
     built-in datetime and calendar modules, adding the ability to query the fiscal
-    year and fiscal quarter of a date or datetime object.
+    year, fiscal quarter, fiscal month, and fiscal day of a date or datetime object.
 
   doc_url: https://fiscalyear.readthedocs.io/en/latest/index.html
   dev_url: https://github.com/adamjstewart/fiscalyear
