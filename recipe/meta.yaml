@@ -12,15 +12,14 @@ source:
 build:
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
-  noarch: python
+  noarch: python >=2.5
 
 requirements:
   host:
-    - python>=2.5
+    - python >=2.5
     - pip
-    - pytest-runner
   run:
-    - python>=2.5
+    - python >=2.5
 
 test:
   imports:
