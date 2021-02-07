@@ -16,7 +16,7 @@ Documentation: https://fiscalyear.readthedocs.io/en/latest/index.html
 fiscalyear is a small, lightweight Python module providing helpful utilities
 for managing the fiscal calendar. It is designed as an extension of the
 built-in datetime and calendar modules, adding the ability to query the fiscal
-year and fiscal quarter of a date or datetime object.
+year, fiscal quarter, fiscal month, and fiscal day of a date or datetime object.
 
 
 Current build status
